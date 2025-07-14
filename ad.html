@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Dynalight&family=Italianno&family=Libertinus+Mono&family=Manufacturing+Consent&family=Mea+Culpa&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Romanesco&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=Xanh+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="icon"
+        href="https://cdn.pixabay.com/photo/2021/02/07/05/15/road-5990128_1280.jpghttps://cdn.pixabay.com/photo/2021/02/07/05/15/road-5990128_1280.jpg">
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #efae0a9c;">
+        <div class="container-fluid">
+            <a class="navbar-brand  me-auto mx-3 mb-lg-0 mt-2 text-dark" href="./index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mx-3 mb-1 mb-lg-0 pt-2">
+                    <li class="nav-item dropdown navbar-brand">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Adventure</a></li>
+                            <li><a class="dropdown-item" href="#">Cultural</a></li>
+                            <li><a class="dropdown-item" href="#">Drink</a></li>
+                            <li><a class="dropdown-item" href="#">Travel Tips</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item navbar-brand">
+                        <a class="nav-link active" aria-current="page" href="#">Destination</a>
+                    </li> -->
+
+                    <!-- ne drop down -->
+
+                    <!-- <div class="dropdown navbar navbar-expand-lg">
+  <a class="btn dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Destination
+  </a>
+
+  <ul class="dropdown-menu me-auto mx-3 mb-1 mb-lg-0 pt-2">
+    <li><a class="dropdown-item py-5" href="#"><b>South Asia</b></a>
+    <ul>
+        Thailand <br>
+        Vietnam <br>
+        Indonesia
+    </ul></li>
+    <li><a class="dropdown-item" href="#"><b>Central America</b></a>
+    <ul>
+        Mexico <br>
+        Cuba <br>
+        Panama
+    </ul></li>
+    <li><a class="dropdown-item" href="#"><b>Africa</b></a>
+    <ul>Morocobr
+        <br> Cape Verde
+    </ul></li>
+  </ul>
+</div> -->
+
+                    <li class="nav-item dropdown me-auto mx-2 mb-1 mb-lg-0 pt-2">
+                        <a class="nav-link dropdown-toggle text-dark fs-5" href="./destination.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Destination</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <h6 class="dropdown-header"><b>South Asia</b></h6>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Thailand</a></li>
+                            <li><a class="dropdown-item" href="#">Vietnam</a></li>
+                            <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h6 class="dropdown-header"><b>Central America</b></h6>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mexico</a></li>
+                            <li><a class="dropdown-item" href="#">Cuba</a></li>
+                            <li><a class="dropdown-item" href="#">Panama</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h6 class="dropdown-header"><b>Africa</b></h6>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Morocco</a></li>
+                            <li><a class="dropdown-item" href="#">Cape Verde</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item navbar-brand">
+                        <a class="nav-link text-dark" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item navbar-brand">
+                        <a class="nav-link text-dark" href="./contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+    <div>
+        <h1 class="text-center pt-5 pb-3" style="font-family: 'Times New Roman', Times, serif;" id="adventure"><b>ADVENTURE</b></h1>
+        <div class="row justify-content-evenly p-5 bg-body-secondary">
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://media.cntraveler.com/photos/54c0053c040ea1175236a68e/master/pass/Paragliding-New-Zealand-Courtesy-Destination-Queenstown.jpg"
+          class="card-img-top" alt="..." height="300px">
+        <div class="card-body">
+          <h5 class="card-title"><b>Queenstown, New Zealand</b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://res.cloudinary.com/enchanting/q_70,f_auto,w_1024,h_512,c_fit/quark-web/2024/09/Patagonia-glacier-AdobeStock_19019330_Web.jpg" class="card-img-top" alt="..." height="300">
+        <div class="card-body">
+          <h5 class="card-title text-center"><b>Patagonia</b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTstuiXKBjX5H7f0VUQ65JbND-ynh8DSpOG3A&s"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"><b>Chamonix</b></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div>
+        <h1 class="text-center pt-5 pb-3" style="font-family: 'Times New Roman', Times, serif;" id="cultural"><b>CULTURAL</b></h1>
+        <div class="row justify-content-evenly p-5 bg-body-secondary">
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://images.squarespace-cdn.com/content/v1/581aae8fd482e9494baaaf15/1679448851182-SJBSGSB5CZDR9GIPNTB8/Lalibela_church+of+st+George+at+sunset.jpg"
+          class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title"><b>Lalibela</b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://www.tripsavvy.com/thmb/w9EDCn38xTx5CrixZ_HUQ3IRlW4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-522194919-59a3b60cd963ac00118052d8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"><b> Fez </b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://plus.unsplash.com/premium_photo-1661963188432-5de8a11f21a7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5na29yJTIwd2F0fGVufDB8fDB8fHww"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"><b>Angkor Wat</b></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <div>
+        <h1 class="text-center pt-5 pb-3" style="font-family: 'Times New Roman', Times, serif;" id="food"><b>FOOD & DRINKS</b></h1>
+        <div class="row justify-content-evenly p-5 bg-body-secondary">
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOOS0npjf7wBmj3Ax4f63ooGbSmSbJp5ptg&s"
+          class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+          <h5 class="card-title"><b>UNESCO World Heritage</b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos625823944xl-1717555640046.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"><b>Phuket & Krabi </b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 px-5">
+      <div class="card" style="width: 25rem;">
+        <img src="https://www.planetware.com/wpimages/2019/10/southeast-asia-best-places-to-visit-siem-reap-cambodia.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"><b>Planet ware</b></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+
+</section>
